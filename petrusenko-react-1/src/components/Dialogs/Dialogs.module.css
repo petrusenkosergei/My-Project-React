@@ -1,0 +1,41 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+    font-family: Beirut;
+    font-size: 25px;
+    border-right: 4px dashed #d5d65a;
+}
+
+.dialogsItems .active{
+    color: gold;
+}
+
+.messages .dialog{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #25ffff;
+
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    background: linear-gradient(30deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 100px;
+
+
+
+}
+
+.dialog img{
+    width: 100px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+
+

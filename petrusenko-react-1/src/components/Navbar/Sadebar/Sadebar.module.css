@@ -1,0 +1,32 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Beirut;
+}
+
+.item a.activ {
+    color: gold;
+}
+
+.friendsImage img {
+    width: 60px;
+    height: 50px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 2px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-right: 5px;
+
+}
+
+.friendsName {
+    font-size: 19px;
+    font-family: Beirut;
+}
